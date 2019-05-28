@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_Activity"
+    android:background="@drawable/app10">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/vitem"
+        android:layout_width="294dp"
+        android:layout_height="68dp"
+        android:layout_below="@id/image"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="Item is affored at affordable prices. This displays creativity and grest skills."
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/image2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/contemporary"
+        android:layout_below="@+id/vitem"
+        />
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/image3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pop"
+        android:layout_below="@+id/vitem"
+        android:layout_toRightOf="@+id/image2"
+        android:layout_marginLeft="50dp"
+    />
+    <ImageView
+        android:paddingTop="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/image4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/deco"
+        android:layout_below="@+id/image2"
+        android:layout_marginLeft="50dp"
+        />
+    <ImageView
+        android:paddingTop="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/image5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/nouveau"
+        android:layout_below="@+id/image2"
+        android:layout_toRightOf="@+id/image4"
+        android:layout_marginLeft="50dp"
+        />
+    <ImageView
+        android:paddingTop="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/image6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/surrealism"
+        android:layout_below="@+id/image4"
+        android:layout_marginLeft="50dp"
+        />
+    <ImageView
+        android:paddingTop="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/image7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cubism"
+        android:layout_below="@+id/image4"
+        android:layout_toRightOf="@+id/image6"
+        android:layout_marginLeft="50dp"
+        />
+
+
+
+</RelativeLayout>
